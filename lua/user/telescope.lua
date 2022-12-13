@@ -43,7 +43,7 @@ lvim.builtin.telescope.defaults.prompt_prefix = "  "
 lvim.builtin.telescope.defaults.selection_caret = "❯ "
 lvim.builtin.telescope.defaults.mappings.i["<esc>"] = actions.close
 lvim.builtin.telescope.defaults.mappings.n["q"] = actions.close
-lvim.builtin.telescope.defaults.winblend = 10
+-- lvim.builtin.telescope.defaults.winblend = 10
 
 -- lvim.builtin.telescope.defaults.borderchars = {
 --   prompt = { " ", " ", " ", " ", " ", " ", " ", " " },
@@ -108,4 +108,3 @@ lvim.builtin.telescope.defaults.winblend = 10
 -- }
 -- lvim.builtin.treesitter.context_commentstring.enable_autocmd = true
 -- lvim.builtin.treesitter.context_commentstring.config.lua = { "//%s", "[[%s]]" }
-

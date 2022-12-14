@@ -1,7 +1,7 @@
 local actions = require("telescope.actions")
 
 lvim.builtin.telescope.defaults.layout_config = {
-  prompt_position = "top",
+  -- prompt_position = "top",
   height = 0.8,
   width = 0.8,
   bottom_pane = {

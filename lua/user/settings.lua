@@ -1,4 +1,4 @@
-lvim.colorscheme = "monokai"
+lvim.colorscheme = "monokai_pro"
 
 lvim.format_on_save = true
 

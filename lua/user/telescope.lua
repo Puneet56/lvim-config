@@ -1,4 +1,5 @@
 local actions = require("telescope.actions")
+require("telescope").load_extension("themes")
 
 lvim.builtin.telescope.defaults.layout_config = {
   -- prompt_position = "top",
@@ -35,6 +36,8 @@ for key, _ in pairs(lvim.builtin.telescope.pickers) do
     lvim.builtin.telescope.pickers[key].hidden = true
   end
 end
+
+
 
 -- lvim.builtin.telescope.defaults.initial_mode = "insert"
 -- lvim.builtin.telescope.defaults.sorting_strategy = "ascending"

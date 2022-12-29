@@ -1,4 +1,4 @@
-lvim.colorscheme = "darkplus"
+lvim.colorscheme = "scery"
 
 lvim.format_on_save = true
 
